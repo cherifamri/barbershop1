@@ -1,0 +1,129 @@
+body{
+	font-family: "Roboto", sans-serif;
+}
+header{
+	padding-top: 15px;
+	color: #fff;
+}
+header ul {
+	list-style: none;
+	text-align: right;
+}
+header ul li{
+	display: inline-block;
+}
+header a{
+	color: #fff;
+	text-decoration: none;
+}
+.top-header{
+	padding: 25px 0 0;
+	background: #232227;
+}
+.sub-header{
+	background: url('../images/page-header.jpg') no-repeat;
+	padding-top: 50px;
+	height: 425px;
+}
+.container-fluid{
+	width: 100%;
+	float: left;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.row{
+	width: 100%;
+	clear: both;
+	float: left;
+}
+.text-center{
+	text-align: center;
+}
+.text-right{
+	text-align: right;
+}
+.w100, .w50, .w30{
+	float: left;
+}
+.w100{
+	width: 100%;
+}
+.w50{
+	width: 50%;
+}
+.w30{
+	width: 33.33%;
+}
+.barbers{
+	text-align: center;
+	padding-bottom: 75px;
+}
+.barbers img{
+	width: 200px;
+	margin: 45px 10px 0;
+}
+.haritage{
+	background: url('../images/cta.jpg') no-repeat; 
+	background-size: cover;
+	color: #fff;
+	padding: 200px 0;
+}
+.haritage h3{
+	font-size: 32px;
+}
+.partners ul{
+	text-align: center;
+	list-style: none;
+}
+.partners ul li{
+	display: inline-block;
+}
+footer{
+	color: #999;
+}
+.pre-footer, .bottom-footer{
+	background: #232227;
+}
+.pre-footer{
+	padding-top: 75px;
+	padding-bottom: 50px;
+}
+.pre-footer h3{
+	color: #ddd;
+}
+.pre-footer ul{
+	padding-left: 0;
+	list-style: none;
+	line-height: 22px;
+}
+.pre-footer .newsletter input {
+    padding: 15px;
+    background: rgba(255,255,255, 0.4);
+    border: none;
+    color: #fff;
+    width: 60%;
+    font-size: 12px;
+}
+.pre-footer .newsletter input::placeholder{
+	color: #ddd !important;
+}
+
+.newsletter button {
+    background: #9e8a78;
+    border: none;
+    padding: 15px 5px;
+    color: #fff;
+    font-size: 12px;
+}
+.bottom-footer{
+	border-top: 1px solid #333;
+	padding: 20px 0;
+}
+.bottom-footer a{
+	color: #fff;
+	text-decoration: none;
+}
+
